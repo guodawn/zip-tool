@@ -1,4 +1,4 @@
-module zip
+module zip-tool
 
 go 1.15
 
