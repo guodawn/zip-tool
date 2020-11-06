@@ -2,15 +2,12 @@ package zip
 
 import (
 	"archive/zip"
-	_ "bytes"
-	_"flag"
 	"fmt"
 	"io"
 	"os"
 	"path/filepath"
-	_ "strconv"
-	_ "sync"
 )
+
 // 压缩文件
 func Zip(srcFile string, destFile string) error{
 	srcFile = filepath.Join(srcFile, "/")

@@ -1,8 +1,8 @@
 package zip_test
 
 import (
-	zip "awesomeProject"
 	"testing"
+	"zip"
 )
 
 func TestZip(t *testing.T) {
